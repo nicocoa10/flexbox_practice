@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox-main-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    height: 100vh;
+}
+/* 
+div{
+    border: 1px solid red;
+} */
+
+.navbar{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(40, 76, 255, 0.775);
+
+}
+.hero{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(15, 47, 207, 0.903);
+
+}
+
+.title{
+    margin-left: 80px;
+    width: 600px;
+}
+.title h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.title p{
+    color: rgba(255, 255, 255, 0.881);
+    font-weight:lighter;
+}
+img{
+    width: 400px;
+}
+
+.sec{
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(113, 136, 255, 0.903);
+
+}
+
+.logo{
+    margin-left: 80px;
+    color: white;
+}
+.nav{
+    margin-right: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.box1{
+    margin-top: 40px;
+    height: 160px;
+    width: 240px;
+    padding: 16px;
+    background-color: rgba(15, 47, 207, 0.903);
+    border-radius: 16px;
+
+
+}
+
+.box1 h2{
+    color: white;
+    margin-bottom: 16px;
+}
+
+.box1 p{
+    color: rgba(255, 255, 255, 0.716);
+}
